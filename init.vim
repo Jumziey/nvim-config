@@ -1,4 +1,4 @@
-source ~/.config/nvim/plugins.vim
+source ~/.config/nvim/pluginloader.vim
 source ~/.config/nvim/default.vim
 
 au BufNewFile,BufRead *.py source ~/.config/nvim/lang/python.vim
