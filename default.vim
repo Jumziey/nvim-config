@@ -31,9 +31,12 @@ colorscheme hybrid_reverse
 noremap <c-h> <c-]>
 noremap <c-g> :tselect<CR>
 
+"Yank to clipboard
+set clipboard+=unnamedplus
+
 
 "Source everything in default map (plugin settings)
-for f in split(glob('~/.config/nvim/default/*.vim'), '\n')
+for f in split(glob(configPath . 'default/*.vim'), '\n')
     exe 'source' f
 endfor
 
