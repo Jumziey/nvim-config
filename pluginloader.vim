@@ -6,9 +6,9 @@ endif
 " Required:
 set runtimepath+=/home/jumzi/.config/nvim/pluginInstalls//repos/github.com/Shougo/dein.vim
 " Required:
-if dein#load_state('/home/jumzi/.config/nvim/pluginInstalls/')
-  call dein#begin('/home/jumzi/.config/nvim/pluginInstalls/')
-  call dein#add('/home/jumzi/.config/nvim/pluginInstalls//repos/github.com/Shougo/dein.vim')
+if dein#load_state(configPath . 'pluginInstalls/')
+  call dein#begin(configPath . 'pluginInstalls/')
+  call dein#add(configPath . 'pluginInstalls//repos/github.com/Shougo/dein.vim')
 
 	"Tag helper
   call dein#add('szw/vim-tags')
@@ -40,6 +40,15 @@ if dein#load_state('/home/jumzi/.config/nvim/pluginInstalls/')
   call dein#add('Valloric/YouCompleteMe', {'build': './install.py'})
 	"Currently used theme
   call dein#add('kristijanhusak/vim-hybrid-material')
+	"Integration with vifm
+  call dein#add('vifm/neovim-vifm')
+    "Formats code on save
+  call dein#add('sbdchd/neoformat')
+	"Alternate between header and source file
+	call dein#add('vim-scripts/a.vim')
+	"QML highlight
+	call dein#add('peterhoeg/vim-qml')
+
   call dein#end()
   call dein#save_state()
 endif
