@@ -4,4 +4,5 @@ map <F12> :A<CR>
 " Autoformatting
 autocmd BufWritePre * Neoformat
 
-"Need something for compile and run
+"Qt syntax
+source ~/.config/nvim/syntax/qt.vim
