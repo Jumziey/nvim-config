@@ -1,8 +1,8 @@
 
-set ts=2 sw=2 ai
+set ts=4 sw=4 ai
 map <F12> :A<CR>
 " Autoformatting
 autocmd BufWritePre * Neoformat
 
 "Qt syntax
-source ~/.config/nvim/syntax/qt.vim
+autocmd BufEnter,BufWritePost * source ~/.config/nvim/syntax/qt.vim
