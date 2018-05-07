@@ -30,3 +30,5 @@ au BufNewFile,BufRead *.cpp source ~/.config/nvim/lang/cpp.vim
 au BufNewFile,BufRead *.c source ~/.config/nvim/lang/c.vim
 au BufNewFile,BufRead *.h source ~/.config/nvim/lang/cpp.vim
 au BufNewFile,BufRead *.php source ~/.config/nvim/lang/php.vim
+au BufNewFile,BufRead *.pri source ~/.config/nvim/lang/pri.vim
+au BufNewFile,BufRead *.pro source ~/.config/nvim/lang/pro.vim
