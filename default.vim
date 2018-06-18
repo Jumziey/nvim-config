@@ -4,6 +4,10 @@
 " NEOVIM DEFAULT SETTINGS
 "
 
+"Load local init.vim
+set exrc
+set secure "not autocmd etc
+
 "Encoding
 set encoding=utf-8
 
