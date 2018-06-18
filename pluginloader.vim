@@ -51,6 +51,8 @@ if dein#load_state(configPath . 'pluginInstalls/')
 	call dein#add('peterhoeg/vim-qml')
 	"Bitbake highlight
 	call dein#add('kergoth/vim-bitbake')
+	"Better haskell highlight
+	call dein#add('neovimhaskell/haskell-vim')
 
   call dein#end()
   call dein#save_state()
