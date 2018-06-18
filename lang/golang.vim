@@ -7,4 +7,3 @@ map <F9> :GoRun<CR>
 map <F11> :GoTest<CR>
 map <F10> :GoTestFunc<CR>
 map <F12> :GoAlternate<CR>
-

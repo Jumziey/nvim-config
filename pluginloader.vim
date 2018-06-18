@@ -31,7 +31,8 @@ if dein#load_state(configPath . 'pluginInstalls/')
 	"Awesome golang plugin
   call dein#add('fatih/vim-go')
 	"Syntax checker
-  call dein#add('vim-syntastic/syntastic')
+  "call dein#add('vim-syntastic/syntastic')
+  call dein#add('neomake/neomake')
 	"Shows hex colors etc
   call dein#add('chrisbra/Colorizer')
 	"Latex integration
@@ -48,6 +49,8 @@ if dein#load_state(configPath . 'pluginInstalls/')
 	call dein#add('vim-scripts/a.vim')
 	"QML highlight
 	call dein#add('peterhoeg/vim-qml')
+	"Bitbake highlight
+	call dein#add('kergoth/vim-bitbake')
 
   call dein#end()
   call dein#save_state()

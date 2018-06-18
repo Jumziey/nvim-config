@@ -27,8 +27,14 @@ au BufNewFile,BufRead *.tex source ~/.config/nvim/lang/latex.vim
 au BufNewFile,BufRead *.md source ~/.config/nvim/lang/markdown.vim
 au BufNewFile,BufRead *.cc source ~/.config/nvim/lang/cpp.vim
 au BufNewFile,BufRead *.cpp source ~/.config/nvim/lang/cpp.vim
+au BufNewFile,BufRead *.qml source ~/.config/nvim/lang/qml.vim
 au BufNewFile,BufRead *.c source ~/.config/nvim/lang/c.vim
 au BufNewFile,BufRead *.h source ~/.config/nvim/lang/cpp.vim
 au BufNewFile,BufRead *.php source ~/.config/nvim/lang/php.vim
 au BufNewFile,BufRead *.pri source ~/.config/nvim/lang/pri.vim
 au BufNewFile,BufRead *.pro source ~/.config/nvim/lang/pro.vim
+au BufNewFile,BufRead *.slide source ~/.config/nvim/lang/slide.vim
+
+"Load local init.vim
+set exrc
+set secure 
