@@ -1,4 +1,7 @@
 " ----- neovimhaskell/haskell-vim -----
+"2 spaces for tab 
+set ts=2 sw=2 ai
+set expandtab
 
 " Align 'then' two spaces after 'if'
 let g:haskell_indent_if = 2
