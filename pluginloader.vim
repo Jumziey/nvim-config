@@ -25,6 +25,7 @@ if dein#load_state(configPath . 'pluginInstalls/')
   call dein#add('airblade/vim-gitgutter')
 	"Git integration vim
   call dein#add('tpope/vim-fugitive')
+	"Cool themes for status bar
   call dein#add('vim-airline/vim-airline-themes')
 	"Markdown previewer
   call dein#add('suan/vim-instant-markdown')
@@ -38,7 +39,7 @@ if dein#load_state(configPath . 'pluginInstalls/')
 	"Latex integration
   call dein#add('lervag/vimtex')
 	"Tab completer
-  call dein#add('Valloric/YouCompleteMe', {'build': './install.py'})
+	call dein#add('Shougo/deoplete.nvim')
 	"Currently used theme
   call dein#add('kristijanhusak/vim-hybrid-material')
 	"Integration with vifm
