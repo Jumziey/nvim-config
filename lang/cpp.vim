@@ -3,7 +3,10 @@ set expandtab
 map <F12> :A<CR>
 
 " Autoformatting
-autocmd BufWritePre * Neoformat
+augroup fmt
+  autocmd!
+  autocmd BufWritePre * undojoin | Neoformat
+augroup END
 
 "Qt syntax
 autocmd BufEnter,BufWritePost * source ~/.config/nvim/syntax/qt.vim
