@@ -27,8 +27,6 @@ if dein#load_state(configPath . 'pluginInstalls/')
   call dein#add('tpope/vim-fugitive')
 	"Cool themes for status bar
   call dein#add('vim-airline/vim-airline-themes')
-	"Markdown previewer
-  call dein#add('suan/vim-instant-markdown')
 	"Awesome golang plugin
   call dein#add('fatih/vim-go')
 	"Syntax checker
