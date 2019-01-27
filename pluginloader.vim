@@ -4,7 +4,7 @@ if &compatible
   set nocompatible               " Be iMproved
 endif
 " Required:
-set runtimepath+=/home/jumzi/.config/nvim/pluginInstalls//repos/github.com/Shougo/dein.vim
+set runtimepath+=$HOME/.config/nvim/pluginInstalls//repos/github.com/Shougo/dein.vim
 " Required:
 if dein#load_state(configPath . 'pluginInstalls/')
   call dein#begin(configPath . 'pluginInstalls/')
@@ -52,10 +52,15 @@ if dein#load_state(configPath . 'pluginInstalls/')
 	call dein#add('kergoth/vim-bitbake')
 	"Better haskell highlight
 	call dein#add('neovimhaskell/haskell-vim')
+	"Awesome haskell REPL
+	call dein#add('parsonsmatt/intero-neovim')
 
   call dein#end()
   call dein#save_state()
 endif
+"use command
+"call dein#install()
 
 filetype plugin indent on
 syntax enable
+

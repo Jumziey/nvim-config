@@ -17,6 +17,13 @@ noremap n k
 noremap s l
 map <Space> <Leader>
 
+"Window moving
+map <C-H> <C-W>h
+map <C-T> <C-W>j
+map <C-N> <C-W>k
+map <C-S> <C-W>l
+
+
 "Tabbing
 set ts=2 sw=2 ai
 autocmd Filetype php setlocal ts=4 sw=4 expandtab
@@ -32,8 +39,8 @@ set background=dark
 colorscheme hybrid_reverse
 
 "tags following
-noremap <c-h> <c-]>
-noremap <c-g> :tselect<CR>
+noremap <c-g> <c-]>
+noremap <c-c> :tselect<CR>
 
 "Yank to clipboard
 set clipboard+=unnamedplus
