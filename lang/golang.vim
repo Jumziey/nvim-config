@@ -16,3 +16,7 @@ noremap <C-c> :GoDefPop<CR>
 
 noremap <c-t> <Nop>
 noremap <c-t> <C-W>j
+
+
+"Seem to have some issue with guru
+let g:go_def_mode = 'godef'
