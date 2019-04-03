@@ -1,7 +1,7 @@
-"vim-instant-markdown preview
-let g:instant_markdown_autostart = 0
-let g:instant_markdown_slow = 1
+"nvim-markdown-preview
+map <F9> :MarkdownPreview<CR>
 
 "Markdown tables
 let g:table_mode_corner="|"
+
 
