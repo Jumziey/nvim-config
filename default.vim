@@ -18,10 +18,16 @@ noremap s l
 map <Space> <Leader>
 
 "Window moving
-map <C-H> <C-W>h
-map <C-T> <C-W>j
-map <C-N> <C-W>k
-map <C-S> <C-W>l
+"Hack to work with vim-go
+let g:go_def_mapping_enabled=0
+noremap <C-H> <C-W>h
+noremap <C-T> <C-W>j
+noremap <C-N> <C-W>k
+noremap <C-S> <C-W>l
+
+"tags following
+noremap <c-g> <c-]>
+noremap <c-c> :tselect<CR>
 
 
 "Tabbing

@@ -54,6 +54,11 @@ if dein#load_state(configPath . 'pluginInstalls/')
 	call dein#add('neovimhaskell/haskell-vim')
 	"Awesome haskell REPL
 	call dein#add('parsonsmatt/intero-neovim')
+	"Markdown Preview
+	"needs:
+	"	live-server (use npm)
+	"	pandoc
+  call dein#add('davidgranstrom/nvim-markdown-preview')
 
   call dein#end()
   call dein#save_state()
