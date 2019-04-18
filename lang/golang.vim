@@ -20,3 +20,6 @@ noremap <c-t> <C-W>j
 
 "Seem to have some issue with guru
 let g:go_def_mode = 'godef'
+
+"Smaller terminal on gorun etc
+let g:go_term_width = 45
