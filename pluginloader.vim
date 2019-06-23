@@ -59,6 +59,8 @@ if dein#load_state(configPath . 'pluginInstalls/')
 	"	live-server (use npm)
 	"	pandoc
   call dein#add('davidgranstrom/nvim-markdown-preview')
+	"GDscript completion and highlighting
+  call dein#add('calviken/vim-gdscript3')
 
   call dein#end()
   call dein#save_state()
