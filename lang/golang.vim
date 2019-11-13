@@ -23,3 +23,6 @@ let g:go_def_mode = 'godef'
 
 "Smaller terminal on gorun etc
 let g:go_term_width = 45
+
+" neomake
+let g:neomake_go_enabled_makers = [ 'go', 'golangci_lint', 'golint', 'govet' ]
