@@ -56,9 +56,9 @@ if dein#load_state(configPath . 'pluginInstalls/')
 	call dein#add('parsonsmatt/intero-neovim')
 	"Markdown Preview
 	"needs:
-	"	live-server (use npm)
-	"	pandoc
-  call dein#add('davidgranstrom/nvim-markdown-preview')
+	"  - node
+	"  - yarn
+	call dein#add('iamcco/markdown-preview.nvim', {'on_ft': ['markdown', 'pandoc.markdown', 'rmd'], 'build': 'sh -c "cd app & yarn install"' })
 	"GDscript completion and highlighting
   call dein#add('calviken/vim-gdscript3')
 
