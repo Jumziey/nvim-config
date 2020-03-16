@@ -61,7 +61,9 @@ if dein#load_state(configPath . 'pluginInstalls/')
 	call dein#add('iamcco/markdown-preview.nvim', {'on_ft': ['markdown', 'pandoc.markdown', 'rmd'], 'build': 'sh -c "cd app & yarn install"' })
 	"GDscript completion and highlighting
   call dein#add('calviken/vim-gdscript3')
-
+	"protobuf linter
+	call dein#add('dense-analysis/ale')
+	call dein#add('bufbuild/vim-buf')
   call dein#end()
   call dein#save_state()
 endif
