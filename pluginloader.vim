@@ -4,7 +4,7 @@ if &compatible
   set nocompatible               " Be iMproved
 endif
 " Required:
-set runtimepath+=$HOME/.config/nvim/pluginInstalls//repos/github.com/Shougo/dein.vim
+set runtimepath+=$HOME/.config/nvim/pluginInstalls/repos/github.com/Shougo/dein.vim
 " Required:
 if dein#load_state(configPath . 'pluginInstalls/')
   call dein#begin(configPath . 'pluginInstalls/')
